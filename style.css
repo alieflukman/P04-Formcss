@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  background-color: skyblue;
+}
+
+h5 {
+  color: red;
+  text-align: left;
+}
+h5:hover {
+  color: hotpink;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+select {
+  transition: 0.1s;
+}
+select:hover {
+  background-color: rgb(237, 128, 206);
+}
+option {
+  transition: 0.1s;
+}
+option:hover {
+  background-color: rgb(178, 131, 30);
+}
+input {
+  transition: 0.1s;
+}
+
+input:hover {
+  background-color: rgb(226, 76, 103);
+}
+textarea {
+  transition: 0.1s;
+}
+
+textarea:hover {
+  background-color: rgb(156, 178, 33);
+}
+button {
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: aqua;
+
+  transition: 0.2s;
+}
+button:hover {
+  background-color: blue;
+  color: aliceblue;
+}
